@@ -36,10 +36,18 @@ git clone https://github.com/avsakharov/bears-and-hippos-classification.git
 cd bears-and-hippos-classification
 ```
 
+## Git Large File Storage (LFS)
+As the project contains large model files (e.g., resnet_model.pt, simple_cnn_model.pt), they are managed using Git LFS. To download the models from Git LFS, please make sure you have [Git LFS](https://git-lfs.github.com/) installed on your machine.
+After cloning the repository, you can fetch the model files by running:
+
+```bash
+git lfs pull
+```
+
+If you don't want to download the pre-trained models and would prefer to train them yourself, you can do so by using the Bears and Hippos Classification.ipynb notebook.
+In this notebook, simply uncomment the corresponding cells to train the models from scratch.
+
 ## Model Inference
 
 If you have new images of bears or hippos, add them to the `data/my_photos` folder and run the `Bears and Hippos Classification.ipynb` file to get predictions.
 
-
-## Git Large File Storage (LFS)
-As the project contains large model files (e.g., resnet_model.pt, simple_cnn_model.pt), they are managed using Git LFS.
