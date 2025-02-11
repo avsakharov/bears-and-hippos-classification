@@ -44,7 +44,7 @@ After cloning the repository, you can fetch the model files by running:
 git lfs pull
 ```
 
-If you don't want to download the pre-trained models and would prefer to train them yourself, you can do so by using the Bears and Hippos Classification.ipynb notebook.
+If you don't want to download the pre-trained models and would prefer to train them yourself, you can do so by using the `Bears and Hippos Classification.ipynb` notebook.
 In this notebook, simply uncomment the corresponding cells to train the models from scratch.
 
 ## Model Inference
