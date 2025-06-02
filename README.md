@@ -50,3 +50,7 @@ In this notebook, simply uncomment the corresponding cells to train the models f
 ## Model Inference
 
 If you have new images of bears or hippos, add them to the `data/my_photos` folder and run the `Bears and Hippos Classification.ipynb` file to get predictions.
+
+## Libraries used
+
+random, numpy, torch, torchvision, dataclasses, os, math, matplotlib, tqdm
