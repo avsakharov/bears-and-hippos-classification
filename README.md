@@ -2,7 +2,7 @@
 
 This project is aimed at solving a binary classification problem: determining whether an image contains a hippo or a bear. The images used for training were collected from [images.cv](https://images.cv/) and [universe.roboflow.com](https://universe.roboflow.com/), and the model is evaluated using a custom test set consisting of personal photographs taken in various locations, including Teriberka, Kaliningrad Zoo, Ho Chi Minh City Zoo, Tanzania, and one photo with yellow hippopotamus from Krasnodar.
 
-<p align="left">
+<p align="center">
   <img src="fine_tuning_resnet.png" alt="Fine-tuning ResNet" width="900"/>
 </p>
 
